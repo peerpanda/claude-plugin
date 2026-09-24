@@ -1,0 +1,14 @@
+{
+  "name": "peerpanda",
+  "displayName": "PeerPanda",
+  "description": "Ask questions and get custom reports on your Competitors",
+  "version": "1.0.0",
+  "author": {
+    "name": "PeerPanda",
+    "url": "https://getpeerpanda.com"
+  },
+  "homepage": "https://getpeerpanda.com/help-center/peerpanda-mcp/",
+  "repository": "https://github.com/peerpanda/claude-plugin",
+  "license": "MIT",
+  "keywords": ["competitive-intelligence", "competitors", "market-research", "battlecard", "sales", "product-marketing"]
+}
