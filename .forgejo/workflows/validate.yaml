@@ -1,0 +1,23 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    name: plugin validate
+    runs-on: docker
+    container:
+      image: node:22-bookworm
+    steps:
+      - name: Checkout
+        uses: https://code.forgejo.org/actions/checkout@v4
+
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Validate marketplace and skills
+        run: |
+          claude plugin validate . --strict
+          claude plugin validate ./skills --strict
