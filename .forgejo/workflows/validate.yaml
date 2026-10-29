@@ -21,3 +21,6 @@ jobs:
         run: |
           claude plugin validate . --strict
           claude plugin validate ./skills --strict
+
+      - name: Consistency checks
+        run: python3 scripts/check_consistency.py
