@@ -9,7 +9,7 @@ This plugin connects [PeerPanda](https://getpeerpanda.com) to Claude: ask questi
 | Component | Name | What it does |
 |-----------|------|--------------|
 | MCP connector | `peerpanda` | Remote server at `https://mcp.getpeerpanda.com/mcp` (OAuth 2.0, no keys to configure) |
-| Skill | `competitive-intelligence` | Teaches Claude how to query PeerPanda well and cite results |
+| Skill | `competitive-intelligence` | Teaches Claude how to query PeerPanda, including uploaded documents, and cite results |
 
 ## Install
 
